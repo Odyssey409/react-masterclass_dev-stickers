@@ -1,11 +1,13 @@
 import React from "react";
+import Layout from "../components/Layout";
+import Seo from "../components/Seo";
 
-function Blog() {
+export default function Blog() {
   return (
-    <div>
-      <h1>Blog</h1>
-    </div>
+    <Layout title="Blog">
+      <p>the most recent news from my shop</p>
+    </Layout>
   );
 }
 
-export default Blog;
+export const Head = () => <Seo title="Blog" />;
