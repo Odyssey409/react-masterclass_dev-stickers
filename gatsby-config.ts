@@ -3,7 +3,7 @@ import { title } from "process";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `DevStickers`,
+    title: `Dev-Stickers`,
     siteUrl: `https://www.yourdomain.tld`,
     description: "Buy a collection of stickers for developers",
   },
