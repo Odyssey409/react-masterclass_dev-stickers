@@ -31,5 +31,5 @@ export const query = graphql`
 `;
 
 export const Head = ({ data }: IBlogPostProps) => (
-  <Seo title={data.mdx?.frontmatter?.title} />
+  <Seo title={data.mdx?.frontmatter?.title!} />
 );
