@@ -7,6 +7,7 @@ import { graphql, Link, Page, PageProps } from "gatsby";
 export default function IndexPage({ data }: PageProps<Queries.StickersQuery>) {
   return (
     <Layout title="Welcome to DevStickers">
+      <div className="grid"></div>
       {data.allContentfulStickerPack.nodes.map((sticker) => (
         <article>
           <GatsbyImage
